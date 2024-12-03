@@ -123,10 +123,11 @@
 ## FastApi сервис с лучшей моделью
 Реализован FastApi сервис с двумя входными точками:
 - /predict_item - принимает один объект в формате JSON и возвращает предсказанное значение selling_price
-    Пример работы: [[post_item.png]]
+    Пример работы: 
+        ![Запрос и ответ сервиса](https://github.com/yegerless/ml_homework_1/blob/main/post_item.png)
 
 - /predict_items - принимает csv файл с одним и более объектом и возвращает csv файл со всеми столбцами из переданного файла + добавленным столбцом с предсказанными значениями selling_price
     Пример работы:
-        Переданный csv файл [[test_csv.png]]
-        Запрос и ответ сервиса [[post_items.png]]
-        Файл csv, который вернул сервис [[response_csv.png]]
+        ![Переданный csv файл](https://github.com/yegerless/ml_homework_1/blob/main/test_csv.png)
+        ![Запрос и ответ сервиса](https://github.com/yegerless/ml_homework_1/blob/main/post_items.png)
+        ![Файл csv, который вернул сервис](https://github.com/yegerless/ml_homework_1/blob/main/response_csv.png)
